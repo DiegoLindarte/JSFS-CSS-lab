@@ -1,6 +1,6 @@
 body {
-    background-image: linear-gradient(#FF5733, #FFBD33);
-    height: 122vh;
+    background-image: linear-gradient(#757474, #651D28);
+    height: 182vh;
     font-weight: bold;
     letter-spacing: 2px;
     
@@ -14,7 +14,7 @@ body {
 }
 
 .main {
-    background-color: whitesmoke;
+    background-color: #48484A;
     height: auto;
     width: 650px;
     position: absolute;
@@ -25,7 +25,7 @@ body {
 }
 
 .left {
-    background-color: #DBFF33;
+    background-color: #A19088;
     width: 200px;
     height: 100%;
     float: left;
@@ -41,12 +41,12 @@ body {
 .profile-img {
     height: 180px;
     width: 180px;
-    background-color: #75FF33;
+    background-color: #6E1E29;
     border-radius: 50%;
     margin-bottom: 20px;
     margin-left: 60px;
-    border: 10px solid #33FF57;
-    box-shadow: 6px 7px 9px 5px #33FFBD;
+    border: 10px solid #887575;
+    box-shadow: 6px 7px 9px 5px #7A303C;
 
 }
 
@@ -62,9 +62,9 @@ body {
 }
 
 .heading {
-    background-color: #DAF7A6;
+    background-color: #65252F;
     padding: 10px;
-    color: #FFC300;
+    color: black;
     text-align: left;
     padding-left: 20px;
     margin-right: -15px;
@@ -76,7 +76,7 @@ body {
     position: absolute;
     width: 21px;
     height: 18px;
-    background-color: #C70039;
+    background-color: #5B2432;
     left: 191px;
     top: 26px;
     transform: rotate(56deg);
@@ -91,7 +91,28 @@ body {
 }
 
 .icons1 {
-    font-size: 16px !important;
+    font-size: 8px !important;
+    padding-right: 10px !important;
+    vertical-align: sub;
+
+}
+
+.icon-phone {
+    font-size: 15px !important;
+    padding-right: 10px !important;
+    vertical-align: sub;
+
+}
+
+.icon-location {
+    font-size: 26px !important;
+    padding-right: 10px !important;
+    vertical-align: sub;
+
+}
+
+.icon-link {
+    font-size: 5px !important;
     padding-right: 10px !important;
     vertical-align: sub;
 
@@ -99,7 +120,7 @@ body {
 
 .skill-container {
     width: 90%;
-    background-color: #900C3F;
+    background-color: #9B9694;
     margin: 0px 10px;
 
 }
@@ -108,7 +129,7 @@ body {
     text-align: right;
     padding-top: 2px;
     padding-bottom: 2px;
-    color: whitesmoke;
+    color: #757474;
 
 }
 
@@ -194,6 +215,10 @@ body {
 
 }
 
+.h-div {
+    text-align: center;
+}
+
 .box-2 {
     padding: 0px 50px;
     margin-top: 30px;
@@ -216,10 +241,10 @@ h2 {
 
 }
 
-.icons3 {
+.icon-me {
     vertical-align: bottom;
     font-size: 21px !important;
-    color: antiquewhite;
+    color: rgb(0, 0, 0);
 
 }
 
@@ -232,7 +257,7 @@ h2 {
 }
 
 .li1 strong {
-    color: crimson;
+    color: #651D28;
     padding-left: 20px;
 
 }
