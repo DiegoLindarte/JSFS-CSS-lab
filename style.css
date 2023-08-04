@@ -262,3 +262,148 @@ h2 {
 
 }
 
+.form {
+    position: relative;
+    width: 20rem;
+    height: 0.5rem;
+    left: 2.5rem;
+    
+}
+
+.form-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #5A4043;
+    border-radius: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: Helvetica;
+    color: black;
+    outline: none;
+    padding: 1.5rem;
+    background: none;
+    transition: all 160ms ease-in;
+
+}
+
+.form-input:hover {
+    border-color: #871B33;
+
+}
+
+.form-input:focus {
+    border-color: #403D41;
+
+}
+
+.form-label {
+    position: absolute;
+    left: 1rem;
+    top: 0.8rem;
+    padding: 0 0.5rem;
+    color: black;
+    cursor: text;
+    transition: top 200ms ease-in, left 200ms ease-in font-size 200ms ease-in;
+    background-color: #48484A;
+
+}
+
+.form-input:focus ~ .form-label, .form-input:not(:placeholder-shown).form-input:not(:focus) ~ .form-label {
+    top: -0.5rem;
+    font-size: 0.8rem;
+    left: 0.8rem;
+
+}
+
+.div-textarea {
+    position: relative;
+    width: 20rem;
+    height: 3rem;
+    left: 2.5rem;
+    top: 2.5rem;
+
+}
+
+.textarea {
+    background-color: #8B8584;
+    color: black;
+    padding: 1em;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.4;
+    width: 350px;
+    height: 200px;
+    transition: all 0.2s;
+
+}
+
+.textarea:hover {
+    cursor: pointer;
+    background-color: #6F1E2A;
+
+}
+
+.textarea:focus {
+    cursor: text;
+    color: black;
+    background-color: #454447;
+    border-color: #9B9694;
+
+}
+
+.div-button {
+    position: relative;
+    width: 20rem;
+    height: 3rem;
+    left: 2.5rem;
+    top: 15rem;
+
+}
+
+.button {
+    display: inline-flex;
+    height: 30px;
+    padding: 0;
+    background: #79343F;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.button:hover {
+    background-color: #5A1E2A;
+
+}
+
+.button:active {
+    background-color: #5A4E51;
+
+}
+
+.button-text, .button-icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    color: black;
+    height: 100%;
+
+}
+
+.button-icon {
+    font-size: 1.5em;
+    background: rgba(0, 0, 0, 0.25);
+
+}
+
